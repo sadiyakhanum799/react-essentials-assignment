@@ -1,0 +1,87 @@
+:root{
+      --primary-color: #cdebf0;
+      --secondary-color: #33285b;
+      --text-color: #19063f;
+}
+.portfolio-card {
+      max-width: 540px;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      margin: 50px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      --background-color: #e6b7b7;
+      --border-radius: 16px;
+      --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.portfolio-header {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+      color: var(--secondary-color);
+}
+.header-decorator {
+      width: 50px;
+      height: 4px;
+      background-color: var(--secondary-color);
+      margin-bottom: 12px;
+      border-radius: 2px;
+}
+.card-content {
+      font-size: 1em;
+      line-height: 1.5;
+}
+.avatar-container {
+      text-align: center;
+      margin-bottom: 16px;
+      position: relative;
+}
+.name{
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-top: 8px;
+      color: var(--secondary-color);
+}
+.role{
+      font-size: 1.2em;
+      color: var(--text-color);
+      margin-bottom: 12px;
+}
+.location,.email{
+      font-size: 0.9em;
+      color: var(--text-color);
+      margin-bottom: 4px;
+}
+.bio-section {
+      margin-top: 16px;
+}
+.bio-section h3 {
+      color: var(--secondary-color);
+      margin-bottom: 8px;
+      font-size: 1.2em;
+      border-bottom: 2px solid var(--secondary-color);
+      padding-bottom: 4px;
+}
+.skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+}
+.skills-list .skill-item {
+      background-color: var(--secondary-color);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.9em;
+}
+.skills-list .skill-item:hover {
+      background-color: #6a1a6a;
+      cursor: pointer;
+}
+.portfolio-card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: translateY(-4px);
+      transition: all 0.3s ease;
+}
